@@ -1,0 +1,43 @@
+{
+  /*
+    include:[],
+    exclude:[],默认值["node_modules","bower_components","jspm_packages"]
+    files:[],
+    "compilerOptions": {
+    "target": 用来制定编译版本,
+    "module": 指定要使用的模块化规范,
+    "lib": [] 用来指定项目中要使用对库
+    "outDir": "./js"编译后的js文件输出目录
+    "outFile": "" 将编译后的文件合并到同一个目录
+    "allowJs": false 是否对js文件进行编译
+    "checkJs": false,是否检测js文件,
+    "removeComments": false 是否移除注释
+    "noEmit": false 不生成编译后的文件
+    "noEmitOnError": false 当有错误时则不生成编译后的文件
+    "alwaysStrict": true 是否开启严格模式
+    "noImplicitAny": true,不允许any类型
+    "noImplicitThis": true 不允许不明确的this
+    "strictNullChecks": true,空值检查
+    "strict": true 严格检查的总开关
+  }
+  */
+  "include": ["./**/*"],
+  "exclude": ["./hello/*"],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES6",
+    // "lib": ["ES6", "DOM"]
+    "outDir": "./js",
+    // "outFile": ""
+    "allowJs": false,
+    "checkJs": false,
+    "removeComments": false,
+    "noEmit": false,
+    "noEmitOnError": false,
+    // "alwaysStrict": true,
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "strictNullChecks": true,
+    "strict": true
+  }
+}
